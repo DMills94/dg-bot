@@ -54,7 +54,7 @@ module.exports = class NextPrestige extends Command {
         }
 
         const { info, methods } = SKILLS[skill]
-        const xpRate = prestigeFuncs.xpRate(prestige)
+        const xpRate = prestigeFuncs.xpRate(prestige, skill === 'hunter')
         const xpTillPrestige = 200000000 - +xp
         
         let embed = new RichEmbed()
