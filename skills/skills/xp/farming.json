@@ -1,0 +1,29 @@
+{
+    "info": {
+        "name": "Farming",
+        "imageUrl": "https://runescape.wiki/images/thumb/4/49/Farming_master_cape_detail.png/100px-Farming_master_cape_detail.png?7bb90",
+        "colour": "#1c5e24"
+    },
+    "methods": [
+        {
+            "material": "days",
+            "name": "Magic + Palms (1 run per day)",
+            "xp": 129740.6
+        },
+        {
+            "material": "days",
+            "name": "Magic + Palms (2 magic, 1 palm run per day)",
+            "xp": 198580.6
+        },
+        {
+            "material": "days",
+            "name": "Yew + Papaya (1 run per day)",
+            "xp": 72232.1
+        },
+        {
+            "material": "days",
+            "name": "Maple + Pineapple (1 run per day)",
+            "xp": 44654.2
+        }
+    ]
+}

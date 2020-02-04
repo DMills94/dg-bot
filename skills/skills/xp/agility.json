@@ -6,6 +6,7 @@
     },
     "methods": [
         {
+            "material": "laps",
             "name": "Barb Advanced Course",
             "xp": 753.7
         }

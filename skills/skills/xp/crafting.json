@@ -1,0 +1,14 @@
+{
+    "info": {
+        "name": "Crafting",
+        "imageUrl": "https://runescape.wiki/images/thumb/e/e0/Crafting_master_cape_detail.png/100px-Crafting_master_cape_detail.png?fddf4",
+        "colour": "#94754e"
+    },
+    "methods": [
+        {
+            "material": "sandstone",
+            "name": "Potion Flasks (glassblowing)",
+            "xp": 100
+        }
+    ]
+}

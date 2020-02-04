@@ -1,0 +1,19 @@
+{
+    "info": {
+        "name": "Fishing",
+        "imageUrl": "https://runescape.wiki/images/thumb/2/20/Fishing_master_cape_detail.png/100px-Fishing_master_cape_detail.png?b6324",
+        "colour": "#86bbe7"
+    },
+    "methods": [
+        {
+            "material": "living minerals",
+            "name": "Rocktails",
+            "xp": 380
+        },
+        {
+            "material": "fishing bait",
+            "name": "Cavefish",
+            "xp": 300
+        }
+    ]
+}

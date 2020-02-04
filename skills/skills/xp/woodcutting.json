@@ -1,0 +1,30 @@
+{
+    "info": {
+        "name": "Woodcutting",
+        "imageUrl": "https://runescape.wiki/images/thumb/e/e2/Woodcutting_master_cape_detail.png/120px-Woodcutting_master_cape_detail.png?2316f",
+        "colour": "#9d7d41"
+    },
+    "methods": [
+        {
+            "material": "cuts",
+            "name": "Ivy",
+            "xp": 332.5
+        },
+        {
+            "material": "logs",
+            "name": "Magic",
+            "xp": 250
+        },
+        {
+            "material": "logs",
+            "name": "Mahogany",
+            "xp": 125
+        },
+        {
+            "material": "logs",
+            "name": "Teak",
+            "xp": 85
+        }
+
+    ]
+}

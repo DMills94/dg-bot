@@ -1,0 +1,19 @@
+{
+    "info": {
+        "name": "Fletching",
+        "imageUrl": "https://runescape.wiki/images/thumb/4/4e/Fletching_master_cape_detail.png/100px-Fletching_master_cape_detail.png?5e844",
+        "colour": "#004753"
+    },
+    "methods": [
+        {
+            "material": "arrow heads + headless arrows",
+            "name": "Broad Arrows (only tipping)",
+            "xp": 15
+        },
+        {
+            "material": "arrow heads + logs + feathers",
+            "name": "Broad Arrows (from scratch)",
+            "xp": 17
+        }
+    ]
+}

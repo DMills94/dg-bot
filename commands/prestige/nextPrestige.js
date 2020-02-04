@@ -3,8 +3,6 @@ const { RichEmbed } = require('discord.js')
 const SKILLS = require('../../skills/skills/skills.js')
 const prestigeFuncs = require('../../skills/prestige-info/prestige.js')
 
-const { stripIndent } = require('common-tags')
-
 const skillList = Object.values(SKILLS).map(skill => skill.info.name)
 
 module.exports = class NextPrestige extends Command {
@@ -69,8 +67,8 @@ module.exports = class NextPrestige extends Command {
             const xpPerAction = prestigeFuncs.xpPerAction(method.xp, xpRate)
             embed.addField(
                 method.name,
-                `XP per action: ${xpPerAction}
-                Actions for prestige: ${Math.ceil(xpTillPrestige / xpPerAction).toLocaleString('en')}`
+                `XP per action: ${xpPerAction.toLocaleString('en')}
+                Required for prestige: ${Math.ceil(xpTillPrestige / xpPerAction).toLocaleString('en')} ${method.material}`
             )
         })
 

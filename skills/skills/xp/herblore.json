@@ -1,0 +1,34 @@
+{
+    "info": {
+        "name": "Herblore",
+        "imageUrl": "https://runescape.wiki/images/thumb/d/d9/Herblore_master_cape_detail.png/100px-Herblore_master_cape_detail.png?55272",
+        "colour": "#005300"
+    },
+    "methods": [
+        {
+            "material": "torstols + extreme sets",
+            "name": "Overloads (making only)",
+            "xp": 1000
+        },
+        {
+            "material": "torstols + super sets + extreme secondaries",
+            "name": "Overloads (making + extremes)",
+            "xp": 2200
+        },
+        {
+            "material": "herbs + secondaries",
+            "name": "Overloads (from scratch)",
+            "xp": 2910
+        },
+        {
+            "material": "fellstalks + morchella mushrooms",
+            "name": "Prayer renewals",
+            "xp": 190
+        },
+        {
+            "material": "toadflax + crushed birds nests",
+            "name": "Saradomin brews",
+            "xp": 180
+        }
+    ]
+}

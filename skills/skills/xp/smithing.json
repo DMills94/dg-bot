@@ -1,0 +1,14 @@
+{
+    "info": {
+        "name": "Smithing",
+        "imageUrl": "https://runescape.wiki/images/thumb/d/d3/Smithing_master_cape_detail.png/100px-Smithing_master_cape_detail.png?9f5ec",
+        "colour": "#fff417"
+    },
+    "methods": [
+        {
+            "material": "ores",
+            "name": "Gold Ores (with gauntlets)",
+            "xp": 56.2
+        }
+    ]
+}

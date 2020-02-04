@@ -1,0 +1,39 @@
+{
+    "info": {
+        "name": "Summoning",
+        "imageUrl": "https://runescape.wiki/images/thumb/a/a3/Summoning_master_cape_detail.png/100px-Summoning_master_cape_detail.png?d3893",
+        "colour": "#ced5e9"
+    },
+    "methods": [
+        {
+            "material": "blue charms + water talismans",
+            "name": "Geyser Titans",
+            "xp": 783.2
+        },
+        {
+            "material": "blue charms + earth talismans",
+            "name": "Moss Titans",
+            "xp": 695.2
+        },
+        {
+            "material": "blue charms + fire talismans",
+            "name": "Fire Titans",
+            "xp": 695.2
+        },
+        {
+            "material": "crimson charms + yak hide",
+            "name": "Pack Yak",
+            "xp": 422.4
+        },
+        {
+            "material": "crimson charms + steel platebodies",
+            "name": "Steel Titans",
+            "xp": 432.5
+        },
+        {
+            "material": "crimson charms + iron platebodies",
+            "name": "Iron Titans",
+            "xp": 417.6
+        }
+    ]
+}

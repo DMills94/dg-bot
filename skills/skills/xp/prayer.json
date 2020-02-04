@@ -1,0 +1,29 @@
+{
+    "info": {
+        "name": "Prayer",
+        "imageUrl": "https://runescape.wiki/images/thumb/a/a7/Prayer_master_cape_detail.png/100px-Prayer_master_cape_detail.png?c9f02",
+        "colour": "#d3d110"
+    },
+    "methods": [
+        {
+            "material": "bones",
+            "name": "Frost Dragon Bones (Guilded Altar)",
+            "xp": 630
+        },
+        {
+            "material": "kills",
+            "name": "Frost Dragon Bones (killing w/ 120 cape)",
+            "xp": 360
+        },
+        {
+            "material": "bones",
+            "name": "Dagannoth Bones (Guilded Altar)",
+            "xp": 437.5
+        },
+        {
+            "material": "bones",
+            "name": "Dragon Bones (Guilded Altar)",
+            "xp": 252
+        }
+    ]
+}

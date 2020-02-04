@@ -1,0 +1,24 @@
+{
+    "info": {
+        "name": "Mining",
+        "imageUrl": "https://runescape.wiki/images/thumb/f/fa/Mining_master_cape_detail.png/100px-Mining_master_cape_detail.png?55901",
+        "colour": "#7cd7fc"
+    },
+    "methods": [
+        {
+            "material": "sandstone",
+            "name": "Red Sandstone",
+            "xp": 70
+        },
+        {
+            "material": "ore",
+            "name": "Gold Ore",
+            "xp": 65
+        },
+        {
+            "material": "gems",
+            "name": "Gem Rocks",
+            "xp": 130
+        }
+    ]
+}

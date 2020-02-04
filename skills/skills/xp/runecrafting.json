@@ -1,0 +1,19 @@
+{
+    "info": {
+        "name": "Runecrafting",
+        "imageUrl": "https://runescape.wiki/images/thumb/a/a3/Runecrafting_master_cape_detail.png/74px-Runecrafting_master_cape_detail.png?47edf",
+        "colour": "#ffe534"
+    },
+    "methods": [
+        {
+            "material": "essence",
+            "name": "ZMI (estimated xp rates)",
+            "xp": 16.11
+        },
+        {
+            "material": "essence",
+            "name": "Blood runes",
+            "xp": 10.5
+        }
+    ]
+}

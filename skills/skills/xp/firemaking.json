@@ -1,0 +1,14 @@
+{
+    "info": {
+        "name": "Firemaking",
+        "imageUrl": "https://runescape.wiki/images/thumb/9/9b/Firemaking_master_cape_detail.png/120px-Firemaking_master_cape_detail.png?e0623",
+        "colour": "#f59616"
+    },
+    "methods": [
+        {
+            "material": "logs",
+            "name": "Magic Logs",
+            "xp": 309.5
+        }
+    ]
+}

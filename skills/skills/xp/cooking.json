@@ -1,0 +1,19 @@
+{
+    "info": {
+        "name": "Cooking",
+        "imageUrl": "https://runescape.wiki/images/thumb/6/60/Cooking_master_cape_detail.png/100px-Cooking_master_cape_detail.png?2b1d0",
+        "colour": "#7528a4"
+    },
+    "methods": [
+        {
+            "material": "raw fish",
+            "name": "Rocktails",
+            "xp": 225
+        },
+        {
+            "material": "raw fish",
+            "name": "Cavefish",
+            "xp": 214
+        }
+    ]
+}
