@@ -1,22 +1,13 @@
 {
-    "0": {
-        "name": "Barb Advanced Course",
-        "xp": 753.7
+    "info": {
+        "name": "Agility",
+        "imageUrl": "https://runescape.wiki/images/thumb/b/b5/Agility_master_cape_detail.png/100px-Agility_master_cape_detail.png?bff6b",
+        "colour": "#222b89"
     },
-    "1": {
-        "name": "Gnome Advanced Course",
-        "xp": 725
-    },
-    "2": {
-        "name": "Ape Atol",
-        "xp": 580
-    },
-    "3": {
-        "name": "Barb Rope Swing",
-        "xp": 28
-    },
-    "4": {
-        "name": "Gnome Basic Course",
-        "xp": 86.5
-    }
+    "methods": [
+        {
+            "name": "Barb Advanced Course",
+            "xp": 753.7
+        }
+    ]
 }
