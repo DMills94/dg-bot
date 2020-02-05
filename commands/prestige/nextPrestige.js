@@ -61,13 +61,13 @@ module.exports = class NextPrestige extends Command {
             .setTitle(info.name)
             .setColor(info.colour)
             .setThumbnail(info.imageUrl)
-            .setDescription(`You need to gain ${xpTillPrestige.toLocaleString('en')} to reach P${prestige + 1} in ${info.name}`)
+            .setDescription(`You need to gain **${xpTillPrestige.toLocaleString('en')}xp** to reach P${prestige + 1} in ${info.name}`)
     
         methods.forEach(method => {
             const xpPerAction = prestigeFuncs.xpPerAction(method.xp, xpRate)
             embed.addField(
                 method.name,
-                `XP per action: ${xpPerAction.toLocaleString('en')}
+                `XP per action: ${xpPerAction.toLocaleString('en', { minimumFractionDigits: 1, maximumFractionDigits: 1 })}
                 Required for prestige: ${Math.ceil(xpTillPrestige / xpPerAction).toLocaleString('en')} ${method.material}`
             )
         })

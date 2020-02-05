@@ -19,6 +19,6 @@ prestigeFuncs.xpRate = (prestige, hunter) => {
  * 
  * @param {number} actionXp
  * @param {number} xpRate
- * @returns {string}
+ * @returns {number}
  */
-prestigeFuncs.xpPerAction = (actionXp, xpRate) => (actionXp * xpRate).toFixed(1).toLocaleString('en')
+prestigeFuncs.xpPerAction = (actionXp, xpRate) => +((actionXp * xpRate).toFixed(1))
