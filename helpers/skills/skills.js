@@ -13,6 +13,7 @@ const prayer = require('./xp/prayer.json')
 const runecrafting = require('./xp/runecrafting.json')
 const smithing = require('./xp/smithing.json')
 const summoning = require('./xp/summoning.json')
+const thieving = require('./xp/thieving.json')
 const woodcutting = require('./xp/woodcutting.json')
 
 module.exports = {
@@ -31,5 +32,6 @@ module.exports = {
     runecrafting,
     smithing,
     summoning,
+    thieving,
     woodcutting
 }

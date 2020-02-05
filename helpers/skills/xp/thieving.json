@@ -1,0 +1,14 @@
+{
+    "info": {
+        "name": "Thieving",
+        "imageUrl": "https://runescape.wiki/images/thumb/c/cc/Thieving_master_cape_detail.png/100px-Thieving_master_cape_detail.png?eb299",
+        "colour": "#7e416f"
+    },
+    "methods": [
+        {
+            "material": "steals",
+            "name": "Gem Stall",
+            "xp": 105
+        }
+    ]
+}
