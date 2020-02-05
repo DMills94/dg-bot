@@ -5,8 +5,7 @@ const sqlite = require('sqlite')
 const keys = require('./config.json')
 
 const client = new commando.Client({
-    owner: keys.ownerID,
-    commandPrefix: 'dg>'
+    owner: keys.ownerID
 })
 
 client
