@@ -6,7 +6,7 @@
     },
     "methods": [
         {
-            "material": "sandstone",
+            "material": "robust glass",
             "name": "Potion Flasks (glassblowing)",
             "xp": 100
         }
