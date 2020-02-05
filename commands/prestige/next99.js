@@ -1,5 +1,5 @@
 const { Command } = require('discord.js-commando')
-const SKILLS = require('../../skills/skills/skills.js')
+const SKILLS = require('../../helpers/skills/skills.js')
 const { RichEmbed } = require('discord.js')
 
 const skillList = Object.values(SKILLS).map(skill => skill.info.name)

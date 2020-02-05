@@ -1,0 +1,28 @@
+{
+    "info": {
+        "name": "Firemaking",
+        "imageUrl": "https://runescape.wiki/images/thumb/9/9b/Firemaking_master_cape_detail.png/120px-Firemaking_master_cape_detail.png?e0623",
+        "colour": "#f59616",
+        "skillBoosts": [
+            {
+                "item": "Ring of fire",
+                "boost": 1.02
+            },
+            {
+                "item": "Flame gloves",
+                "boost": 1.02
+            },
+            {
+                "item": "Ring of fire + Flame gloves",
+                "boost": 1.05
+            }
+        ]
+    },
+    "methods": [
+        {
+            "material": "logs",
+            "name": "Magic Logs",
+            "xp": 378
+        }
+    ]
+}

@@ -2,7 +2,13 @@
     "info": {
         "name": "Mining",
         "imageUrl": "https://runescape.wiki/images/thumb/f/fa/Mining_master_cape_detail.png/100px-Mining_master_cape_detail.png?55901",
-        "colour": "#7cd7fc"
+        "colour": "#7cd7fc",
+        "skillBoosts": [
+            {
+                "item": "Varrock Armour",
+                "boost": 1.01
+            }
+        ]
     },
     "methods": [
         {

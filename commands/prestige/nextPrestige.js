@@ -1,7 +1,15 @@
 const { Command } = require('discord.js-commando')
 const { RichEmbed } = require('discord.js')
-const SKILLS = require('../../skills/skills/skills.js')
-const prestigeFuncs = require('../../skills/prestige-info/prestige.js')
+
+// Skills
+const SKILLS = require('../../helpers/skills/skills.js')
+
+// Functions
+const prestigeFuncs = require('../../helpers/prestige-info/prestige.js')
+
+// Helpers
+const { toLocaleString } = require('../../helpers/helpers.js')
+const { NUM_EMOJIS } = require('../../helpers/constants.js')
 
 const skillList = Object.values(SKILLS).map(skill => skill.info.name)
 
@@ -54,6 +62,7 @@ module.exports = class NextPrestige extends Command {
         }
 
         const { info, methods } = SKILLS[skill]
+        const boosts = 'skillBoosts' in info
         const xpRate = prestigeFuncs.xpRate(prestige, skill === 'hunter')
         const xpTillPrestige = 200000000 - +xp
         
@@ -61,14 +70,25 @@ module.exports = class NextPrestige extends Command {
             .setTitle(info.name)
             .setColor(info.colour)
             .setThumbnail(info.imageUrl)
-            .setDescription(`You need to gain **${xpTillPrestige.toLocaleString('en')}xp** to reach P${prestige + 1} in ${info.name}`)
+            .setDescription(
+                `You need to gain **${toLocaleString(xpTillPrestige).toLocaleString('en')}xp** to reach P${prestige + 1} in ${info.name}
+                ${boosts
+                    ? `
+                        📈 **__XP Boosts__**
+                        ${info.skillBoosts.map((boost, i) => `${NUM_EMOJIS[i]} ${boost.item}: ${boost.boost}x`).join('\n')}
+                    `
+                    : ''
+                }
+                💪 **__Training Methods__**
+                `
+            )
     
         methods.forEach(method => {
             const xpPerAction = prestigeFuncs.xpPerAction(method.xp, xpRate)
+
             embed.addField(
-                method.name,
-                `XP per action: ${xpPerAction.toLocaleString('en', { minimumFractionDigits: 1, maximumFractionDigits: 1 })}
-                Required for prestige: ${Math.ceil(xpTillPrestige / xpPerAction).toLocaleString('en')} ${method.material}`
+                `${method.name}`,
+                `${toLocaleString(Math.ceil(xpTillPrestige / xpPerAction))} ${method.material} ${boosts ? `- ${info.skillBoosts.map((boost, i) => `${NUM_EMOJIS[i]} ${toLocaleString(Math.ceil(xpTillPrestige / (xpPerAction * boost.boost)))} ${method.material}`).join(' - ')}` : ''}`
             )
         })
 
