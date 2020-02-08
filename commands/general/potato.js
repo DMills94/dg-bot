@@ -11,7 +11,7 @@ module.exports = class PotatoCommand extends Command {
         })
     }
 
-    async run(msg, args) {
+    async run(msg) {
         return msg.channel.send('\:potato:')
     }
 }
