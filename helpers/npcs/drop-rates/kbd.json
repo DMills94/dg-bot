@@ -1,0 +1,22 @@
+{
+    "info": {
+      "fullName": "King Black Dragon",
+      "name": "KBD",
+      "imageURL": "https://oldschool.runescape.wiki/images/thumb/e/e9/King_Black_Dragon.png/290px-King_Black_Dragon.png?d25f0",
+      "examine": "One of the biggest, meanest dragons around."
+    },
+    "dropTable": [
+      {
+        "name": "King Black Dragon egg",
+        "dropRate": 1000
+      },
+      {
+        "name": "KBD heads",
+        "dropRate": 800
+      },
+      {
+        "name": "Draconic Visage",
+        "dropRate": 250
+      }
+    ]
+  }

@@ -1,0 +1,126 @@
+{
+    "info": {
+      "fullName": "Chaos Elemental",
+      "name": "ChaosEle",
+      "imageURL": "https://runescape.wiki/images/thumb/a/a9/Chaos_Elemental.png/200px-Chaos_Elemental.png?0c14a",
+      "examine": "pUre A cHaOs of crEatuRe!"
+    },
+    "dropTable": [
+      {
+        "name": "Chaos Elemental egg",
+        "dropRate": 1000
+      },
+      {
+        "name": "25-100 x Morrigan's javelin",
+        "dropRate": 500
+      },
+      {
+        "name": "25-100 x Morrigan's throwing axe",
+        "dropRate": 500
+      },
+      {
+        "name": "Morrigan's leather chaps",
+        "dropRate": 500
+      },
+      {
+        "name": "Morrigan's leather body",
+        "dropRate": 500
+      },
+      {
+        "name": "Morrigan's coif",
+        "dropRate": 500
+      },
+      {
+        "name": "Zuriel's hood",
+        "dropRate": 500
+      },
+      {
+        "name": "Zuriel's robe top",
+        "dropRate": 500
+      },
+      {
+        "name": "Zuriel's staff",
+        "dropRate": 500
+      },
+      {
+        "name": "Vesta's chainbody",
+        "dropRate": 500
+      },
+      {
+        "name": "Vesta's plateskirt",
+        "dropRate": 500
+      },
+      {
+        "name": "Vesta's longsword",
+        "dropRate": 500
+      },
+      {
+        "name": "Vesta's spear",
+        "dropRate": 500
+      },
+      {
+        "name": "Statius's full helm",
+        "dropRate": 500
+      },
+      {
+        "name": "Statius's platebody",
+        "dropRate": 500
+      },
+      {
+        "name": "Statius's platelegs",
+        "dropRate": 500
+      },
+      {
+        "name": "Statius's warhammer",
+        "dropRate": 500
+      },
+      {
+        "name": "Corrupt dragon dagger",
+        "dropRate": 250
+      },
+      {
+        "name": "Corrupt dragon battleaxe",
+        "dropRate": 250
+      },
+      {
+        "name": "Corrupt dragon mace",
+        "dropRate": 250
+      },
+      {
+        "name": "Corrupt dragon chainbody",
+        "dropRate": 250
+      },
+      {
+        "name": "Corrupt dragon helm",
+        "dropRate": 250
+      },
+      {
+        "name": "Corrupt dragon scimitar",
+        "dropRate": 250
+      },
+      {
+        "name": "Corrupt dragon longsword",
+        "dropRate": 250
+      },
+      {
+        "name": "Corrupt dragon spear",
+        "dropRate": 250
+      },
+      {
+        "name": "Corrupt dragon sq shield",
+        "dropRate": 250
+      },
+      {
+        "name": "Corrupt dragon platelegs",
+        "dropRate": 250
+      },
+      {
+        "name": "Corrupt dragon plateskirt",
+        "dropRate": 250
+      },
+      {
+        "name": "Dragon 2h sword",
+        "dropRate": 100
+      }
+    ]
+  }
