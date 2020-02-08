@@ -1,4 +1,4 @@
-const { USERNAME, TOKEN, REPO_NAME, API_URL } = require('./config.json')
+const { USERNAME, TOKEN, REPO_NAME } = require('./config.json')
 const { Octokit } = require('@octokit/rest')
 
 const octokit = new Octokit({
