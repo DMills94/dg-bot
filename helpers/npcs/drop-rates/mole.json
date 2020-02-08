@@ -1,0 +1,22 @@
+{
+    "info": {
+      "fullName": "Giant Mole",
+      "name": "Mole",
+      "imgUrl": "https://oldschool.runescape.wiki/images/thumb/f/fd/Giant_Mole.png/250px-Giant_Mole.png?3f58a",
+      "examine": "Holy Mole-y!"
+    },
+    "dropTable": [
+      {
+        "name": "Giant Mole egg",
+        "dropRate": 1250
+      },
+      {
+        "name": "Dragon 2h sword",
+        "dropRate": 200
+      },
+      {
+        "name": "Pure essence (500-900)",
+        "dropRate": 13
+      }
+    ]
+  }

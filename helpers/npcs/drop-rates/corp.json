@@ -1,0 +1,38 @@
+{
+    "info": {
+      "fullName": "Corporeal Beast",
+      "name": "Corp",
+      "imgUrl": "https://oldschool.runescape.wiki/images/thumb/5/5c/Corporeal_Beast.png/270px-Corporeal_Beast.png?52ebb",
+      "examine": "A vision of supernatural horror."
+    },
+    "dropTable": [
+      {
+        "name": "Corporeal Beast egg",
+        "dropRate": 625
+      },
+      {
+        "name": "Divine sigil",
+        "dropRate": 500
+      },
+      {
+        "name": "Elysian sigil",
+        "dropRate": 450
+      },
+      {
+        "name": "Arcane sigil",
+        "dropRate": 375
+      },
+      {
+        "name": "Spectral sigil",
+        "dropRate": 300
+      },
+      {
+        "name": "Holy elixir",
+        "dropRate": 100
+      },
+      {
+        "name": "Spirit shield",
+        "dropRate": 60
+      }
+    ]
+  }

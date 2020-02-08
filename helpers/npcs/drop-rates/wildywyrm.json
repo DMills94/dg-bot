@@ -1,0 +1,18 @@
+{
+    "info": {
+      "fullName": "WildyWyrm",
+      "name": "WW",
+      "imgUrl": "https://runescape.wiki/images/thumb/b/ba/WildyWyrm.png/200px-WildyWyrm.png?21906",
+      "examine": "It's made of pure fire."
+    },
+    "dropTable": [
+      {
+        "name": "WildyWyrm egg",
+        "dropRate": 600
+      },
+      {
+        "name": "Noxious scythe",
+        "dropRate": 200
+      }
+    ]
+  }

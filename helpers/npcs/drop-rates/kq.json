@@ -1,0 +1,26 @@
+{
+    "info": {
+      "fullName": "Kalphite Queen",
+      "name": "KQ",
+      "imgUrl": "https://oldschool.runescape.wiki/images/thumb/5/57/Kalphite_Queen.png/290px-Kalphite_Queen.png?a4955",
+      "examine": "I don't think insect repellent will work..."
+    },
+    "dropTable": [
+      {
+        "name": "Kalphite Queen egg",
+        "dropRate": 1250
+      },
+      {
+        "name": "KQ head",
+        "dropRate": 1000
+      },
+      {
+        "name": "Dragon 2h sword",
+        "dropRate": 100
+      },
+      {
+        "name": "Dragon chainbody",
+        "dropRate": 80
+      }
+    ]
+  }

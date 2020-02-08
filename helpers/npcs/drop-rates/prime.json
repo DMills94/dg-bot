@@ -1,0 +1,30 @@
+{
+    "info": {
+      "fullName": "Dagannoth Prime",
+      "name": "Prime",
+      "imgUrl": "https://oldschool.runescape.wiki/images/thumb/8/8b/Dagannoth_Prime.png/200px-Dagannoth_Prime.png?945b1",
+      "examine": "A legendary Dagannoth King, rumoured to fly on the North winds."
+    },
+    "dropTable": [
+      {
+        "name": "Dagannoth Prime egg",
+        "dropRate": 1250
+      },
+      {
+        "name": "Dragon hatchet",
+        "dropRate": 100
+      },
+      {
+        "name": "Seers's ring",
+        "dropRate": 80
+      },
+      {
+        "name": "Mud battlestaff",
+        "dropRate": 50
+      },
+      {
+        "name": "Water talisman (3-147)",
+        "dropRate": 23
+      }
+    ]
+  }
