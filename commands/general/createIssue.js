@@ -12,15 +12,29 @@ module.exports = class CreateIssue extends Command {
         })
     }
     
-    async run(msg, args) {
-        const title = new Argument(client, {
-            key: 'title',
-            label: 'title',
-            prompt: 'Please enter a title for the issue',
-            type: 'string'
-        })
+    async run(msg) {
+        const { channel, author } = msg
+        const userFilter = message => author.id === message.author.id
+        const processUserResponse = msgCollection => {
+            const userReply = msgCollection.first()
+            return userReply.content
+        }
 
-        console.log(title)
-        msg.channel.send('yup')
+        channel.send('Please define an issue `title` - keep it short and to the point')
+        const titleReponseMsg = await channel.awaitMessages(userFilter, { max: 1 })
+        const title = processUserResponse(titleReponseMsg)
+
+        channel.send('Please enter a description for the issue (in one message), make this as detailed as you need 👍')
+        const bodyResponseMsg = await channel.awaitMessages(userFilter, { max: 1})
+        const body = processUserResponse(bodyResponseMsg)
+        
+        const postIssueResponse = await createIssue(title, body)
+
+        if (postIssueResponse.status === 201) {
+            channel.send(`Success! You created an issue, take a look here: ${postIssueResponse.data.html_url}`)
+        }
+        else {
+            channel.send('Something went wrong 😒 try again later or contact the bot owner')
+        }
     }
 }

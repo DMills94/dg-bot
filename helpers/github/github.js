@@ -1,24 +1,20 @@
 const { USERNAME, TOKEN, REPO_NAME, API_URL } = require('./config.json')
+const { Octokit } = require('@octokit/rest')
+
+const octokit = new Octokit({
+    auth: TOKEN
+})
 
 const githubFuncs = module.exports = {}
 
 githubFuncs.createIssue = async (title, body) => {
-    const data = JSON.stringify({
-        issue: {
-            title,
-            body,
-            assignee: USERNAME
-        }
+    const response = octokit.issues.create({
+        owner: USERNAME,
+        repo: REPO_NAME,
+        title,
+        body,
+        assignees: [USERNAME]
     })
 
-    const response = await fetch(`${API_URL}/repos/${USERNAME}/${REPO_NAME}/issues`, {
-        method: 'POST',
-        headers: {
-            'Authorization': TOKEN,
-            "Accept": "application/vnd.github.golden-coment-preview.json"
-        },
-        body: data
-    })
-
-    console.log(response)
+    return response
 }
