@@ -1,0 +1,34 @@
+{
+  "info": {
+    "fullName": "Commander Zilyana",
+    "name": "Sara",
+    "imgUrl": "https://oldschool.runescape.wiki/images/thumb/f/fb/Commander_Zilyana.png/500px-Commander_Zilyana.png?c5eaa",
+    "examine": "Commander of Saradomin's forces."
+  },
+  "dropTable": [
+    {
+      "name": "Commander Zilyana egg",
+      "dropRate": 1250
+    },
+    {
+      "name": "Saradomin hilt",
+      "dropRate": 300
+    },
+    {
+      "name": "Saradomin's whisper",
+      "dropRate": 125
+    },
+    {
+      "name": "Saradomin's murmur",
+      "dropRate": 125
+    },
+    {
+      "name": "Saradomin's hiss",
+      "dropRate": 125
+    },
+    {
+      "name": "Saradomin sword",
+      "dropRate": 60
+    }
+  ]
+}
