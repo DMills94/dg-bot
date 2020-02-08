@@ -9,7 +9,7 @@ module.exports = class Next99 extends Command {
         super(client, {
             name: 'next99',
             aliases: ['n99', '99'],
-            group: 'prestige',
+            group: 'blissscape',
             description: 'Calculates how many actions you need for different skills to reach level 99 in the next prestige',
             memberName: '99',
             args: [
