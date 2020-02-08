@@ -1,0 +1,46 @@
+{
+    "info": {
+      "fullName": "Queen Black Dragon",
+      "name": "QBD",
+      "imageURL": "https://runescape.wiki/images/thumb/e/ef/Queen_Black_Dragon.png/250px-Queen_Black_Dragon.png?b3445",
+      "examine": "Worms burrow through her rotting flesh."
+    },
+    "dropTable": [
+      {
+        "name": "Queen Black Dragon egg",
+        "dropRate": 750
+      },
+      {
+        "name": "Ascension limbs",
+        "dropRate": 200
+      },
+      {
+        "name": "Dragon kiteshield",
+        "dropRate": 128
+      },
+      {
+        "name": "Draconic visage",
+        "dropRate": 120
+      },
+      {
+        "name": "Royal frame",
+        "dropRate": 100
+      },
+      {
+        "name": "Royal sight",
+        "dropRate": 100
+      },
+      {
+        "name": "Royal torsion spring",
+        "dropRate": 100
+      },
+      {
+        "name": "Royal bolts stabiliser",
+        "dropRate": 100
+      },
+      {
+        "name": "Dragonbone upgrade kit",
+        "dropRate": 70
+      }
+    ]
+  }

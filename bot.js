@@ -47,7 +47,7 @@ client.setProvider(
 
 client.registry
     .registerGroups([
-        ['prestige', 'Prestige commands'],
+        ['blissscape', 'BlissScape commands'],
         ['general', 'General use commands']
     ])
     .registerDefaults()

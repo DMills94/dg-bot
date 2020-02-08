@@ -18,7 +18,7 @@ module.exports = class NextPrestige extends Command {
         super(client, {
             name: 'nextprestige',
             aliases: ['np', 'prestige'],
-            group: 'prestige',
+            group: 'blissscape',
             description: 'Calculates how many actions you need for different skills to reach the next prestige',
             memberName: 'prestige',
             args: [
