@@ -1,8 +1,8 @@
 {
     "info": {
       "fullName": "Chaos Elemental",
-      "name": "Chaos Ele",
-      "imgUrl": "https://runescape.wiki/images/thumb/a/a9/Chaos_Elemental.png/200px-Chaos_Elemental.png?0c14a",
+      "name": "ChaosEle",
+      "imageURL": "https://runescape.wiki/images/thumb/a/a9/Chaos_Elemental.png/200px-Chaos_Elemental.png?0c14a",
       "examine": "pUre A cHaOs of crEatuRe!"
     },
     "dropTable": [

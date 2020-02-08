@@ -2,7 +2,7 @@
     "info": {
       "fullName": "Giant Mole",
       "name": "Mole",
-      "imgUrl": "https://oldschool.runescape.wiki/images/thumb/f/fd/Giant_Mole.png/250px-Giant_Mole.png?3f58a",
+      "imageURL": "https://oldschool.runescape.wiki/images/thumb/f/fd/Giant_Mole.png/250px-Giant_Mole.png?3f58a",
       "examine": "Holy Mole-y!"
     },
     "dropTable": [

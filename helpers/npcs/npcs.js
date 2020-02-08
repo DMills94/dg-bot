@@ -6,7 +6,7 @@ const jad = require('./drop-rates/jad.json')
 const kbd = require('./drop-rates/kbd.json')
 const kiln = require('./drop-rates/kiln.json')
 const kq = require('./drop-rates/kq.json')
-const kreearra = require('./drop-rates/kreearra.json')
+const kree = require('./drop-rates/kreearra.json')
 const kril = require('./drop-rates/kril.json')
 const mole = require('./drop-rates/mole.json')
 const nex = require('./drop-rates/nex.json')
@@ -27,7 +27,7 @@ module.exports = {
   kbd,
   kiln,
   kq,
-  kreearra,
+  kree,
   kril,
   mole,
   nex,

@@ -1,8 +1,8 @@
 {
     "info": {
       "fullName": "Chicken God",
-      "name": "chickengod",
-      "imgUrl": "https://images3.wikia.nocookie.net/__cb20120219023202/runescape/images/a/a4/Evil_Chicken.png",
+      "name": "ChickenGod",
+      "imageURL": "https://images3.wikia.nocookie.net/__cb20120219023202/runescape/images/a/a4/Evil_Chicken.png",
       "examine": "Mama..."
     },
     "dropTable": [
