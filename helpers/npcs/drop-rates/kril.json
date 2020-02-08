@@ -1,0 +1,22 @@
+{
+  "info": {
+    "fullName": "K'ril Tsutsaroth",
+    "name": "Kril",
+    "imageURL": "https://oldschool.runescape.wiki/images/thumb/2/2f/K%27ril_Tsutsaroth.png/560px-K%27ril_Tsutsaroth.png?d22a3",
+    "examine": "A servant of the god Zamorak."
+  },
+  "dropTable": [
+    {
+      "name": "K'ril Tsutsaroth egg",
+      "dropRate": 1250
+    },
+    {
+      "name": "Zamorak hilt",
+      "dropRate": 300
+    },
+    {
+      "name": "Zamorakian spear",
+      "dropRate": 61
+    }
+  ]
+}

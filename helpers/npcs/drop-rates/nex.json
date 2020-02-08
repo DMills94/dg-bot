@@ -1,0 +1,74 @@
+{
+  "info": {
+    "fullName": "Nex",
+    "name": "Nex",
+    "imageURL": "https://i.imgur.com/IJ3Gk.png",
+    "examine": "Even the gods fear it."
+  },
+  "dropTable": [
+    {
+      "name": "Nex egg",
+      "dropRate": 600
+    },
+    {
+      "name": "Zaryte bow",
+      "dropRate": 350
+    },
+    {
+      "name": "Torva full helm",
+      "dropRate": 300
+    },
+    {
+      "name": "Torva platebody",
+      "dropRate": 300
+    },
+    {
+      "name": "Torva platelegs",
+      "dropRate": 300
+    },
+    {
+      "name": "Torva gloves",
+      "dropRate": 300
+    },
+    {
+      "name": "Torva boots",
+      "dropRate": 200
+    },
+    {
+      "name": "Pernix cowl",
+      "dropRate": 300
+    },
+    {
+      "name": "Pernix body",
+      "dropRate": 300
+    },
+    {
+      "name": "Pernix chaps",
+      "dropRate": 300
+    },
+    {
+      "name": "Pernix gloves",
+      "dropRate": 300
+    },
+    {
+      "name": "Pernix boots",
+      "dropRate": 200
+    },
+    {
+      "name": "Virtus robe top",
+      "dropRate": 300
+    },
+    {
+      "name": "Virtus robe legs",
+      "dropRate": 300
+    },
+    {
+      "name": "Virtus gloves",
+      "dropRate": 300
+    },
+    {
+      "name": "Virtus boots",
+      "dropRate": 200
+    }
+  ]
+}

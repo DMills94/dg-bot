@@ -1,0 +1,14 @@
+{
+    "info": {
+      "fullName": "TzTok-Jad",
+      "name": "Jad",
+      "imageURL": "https://vignette.wikia.nocookie.net/runescape2/images/8/82/TzTok-Jad.png/revision/latest/scale-to-width-down/201?cb=20120703093421",
+      "examine": "This is going to hurt..."
+    },
+    "dropTable": [
+      {
+        "name": "TzTok Jad egg",
+        "dropRate": 50
+      }
+    ]
+  }

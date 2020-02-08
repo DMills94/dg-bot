@@ -1,0 +1,23 @@
+{
+    "info": {
+      "fullName": "Dagannoth Supreme",
+      "name": "Supreme",
+      "imageURL": "https://oldschool.runescape.wiki/images/thumb/1/1b/Dagannoth_Rex.png/230px-Dagannoth_Rex.png?a99a9",
+      "examine": "Firstborn of the legendary Dagannoth Kings."
+    },
+    "dropTable": [
+      {
+        "name": "Dagannoth Supreme egg",
+        "dropRate": 1250
+      },
+      {
+        "name": "Dragon hatchet",
+        "dropRate": 100
+      },
+      {
+        "name": "Archers's ring",
+        "dropRate": 80
+      }
+    ]
+  }
+  
