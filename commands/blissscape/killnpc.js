@@ -2,6 +2,7 @@ const { Command } = require('discord.js-commando')
 const { RichEmbed } = require('discord.js')
 const { stripIndents } = require('common-tags')
 const { isEmpty } = require('lodash') 
+const { toLocaleString } = require('../../helpers/helpers.js')
 const NPCS = require('../../helpers/npcs/npcs.js')
 
 const npcList = Object.values(NPCS).map(npc => npc.info.name)
@@ -64,27 +65,27 @@ module.exports = class KillNPC extends Command {
       }
     }
 
-    const formattedLoot = isEmpty(loot)
-      ? 'Nothing 😂👌💯'
-      : Object.entries(loot).map(item => {
-        return `**${item[1]}x** ${item[0]}`
-      }).join('\n')
-
     let embed = new RichEmbed()
       .setTitle('Boss kill simulator')
-      .setColor('##fff417')
+      .setColor('#fff417')
       .setURL('http://www.blissscape.com/forums/m/33734747/viewthread/32288082-drop-table-bosses')
       .setThumbnail(info.imageURL)
-      .setDescription(`**__You killed ${amount} ${info.fullName}'s and received__**`)
+      .setDescription(`**__You killed ${toLocaleString(amount)} ${info.fullName}'s and received__**`)
       .setFooter(info.examine)
 
-    isEmpty(loot)
+    isEmpty(loot) // If no drops acquired
       ? embed.setDescription(
-        stripIndents`**__You killed ${amount} ${info.fullName}'s and received:__**
+        stripIndents`**__You killed ${toLocaleString(amount)} ${info.fullName}'s and received:__**
         
         Nothing 😂👌💯`)
+      : Object.entries(loot).length > 25 // If there's more than 25 drops (Max RichEmbed field count)
+        ? embed.setDescription(
+          stripIndents`**__You killed ${toLocaleString(amount)} ${info.fullName}'s and received:__**
+
+          ${Object.entries(loot).map(item => `**${toLocaleString(item[1])}x** ${item[0]}**`).join('\n')}`
+        )
       : Object.entries(loot).forEach(item => {
-        embed.addField(item[0], item[1], true)
+        embed.addField(item[0], toLocaleString(item[1]), true)
       })
 
     msg.channel.send({ embed })
