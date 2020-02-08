@@ -1,0 +1,22 @@
+{
+    "info": {
+      "fullName": "Noxious dragon",
+      "name": "nox",
+      "imgUrl": "https://www.runehq.com/image/monsterdb/m/mithrildragon.png",
+      "examine": "I hope you brought vengeance."
+    },
+    "dropTable": [
+      {
+        "name": "Noxious dragon egg",
+        "dropRate": 500
+      },
+      {
+        "name": "Noxious staff",
+        "dropRate": 300
+      },
+      {
+        "name": "Draconic visage",
+        "dropRate": 100
+      }
+    ]
+  }

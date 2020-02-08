@@ -1,0 +1,34 @@
+{
+    "info": {
+      "fullName": "Chicken God",
+      "name": "chickengod",
+      "imgUrl": "https://images3.wikia.nocookie.net/__cb20120219023202/runescape/images/a/a4/Evil_Chicken.png",
+      "examine": "Mama..."
+    },
+    "dropTable": [
+      {
+        "name": "Chicken egg",
+        "dropRate": 500
+      },
+      {
+        "name": "Rubber chicken",
+        "dropRate": 400
+      },
+      {
+        "name": "Chicken head",
+        "dropRate": 250
+      },
+      {
+        "name": "Chicken wings",
+        "dropRate": 250
+      },
+      {
+        "name": "Chicken legs",
+        "dropRate": 250
+      },
+      {
+        "name": "Chicken feet",
+        "dropRate": 250
+      }
+    ]
+  }
