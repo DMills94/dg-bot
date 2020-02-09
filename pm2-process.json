@@ -1,0 +1,10 @@
+{
+    "script": "bot.js",
+    "watch": true,
+    "time": true,
+    "ignore_watch": ["node_modules", "databases.sqlite3", ".git"],
+    "watch_options": {
+      "followSymlinks": false
+    },
+    "name": "DgBot"
+  }
