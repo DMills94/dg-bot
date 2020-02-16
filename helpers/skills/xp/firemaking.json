@@ -21,8 +21,30 @@
     "bestMethods": [
         {
             "material": "logs",
-            "name": "Magic Logs",
+            "name": "Magic Logs (bonfire)",
             "xp": 378
+        }
+    ],
+    "moreMethods": [
+        {
+            "material": "logs",
+            "name": "Yew Logs (bonfire)",
+            "xp": 252
+        },
+        {
+            "material": "logs",
+            "name": "Maple Logs (bonfire)",
+            "xp": 157
+        },
+        {
+            "material": "logs",
+            "name": "Mahogany Logs (bonfire)",
+            "xp": 180
+        },
+        {
+            "material": "logs",
+            "name": "Willow Logs (bonfire)",
+            "xp": 112.5
         }
     ]
 }

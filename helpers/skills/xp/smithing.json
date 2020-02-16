@@ -15,7 +15,17 @@
         {
             "material": "rune bars",
             "name": "Rune bar smithing",
-            "xp": 56.2
+            "xp": 75
+        },
+        {
+            "material": "addy bars",
+            "name": "Adamant bar smithing",
+            "xp": 62.5
+        },
+        {
+            "material": "mith bars",
+            "name": "Mithril bar smithing",
+            "xp": 50
         }
     ]
 }

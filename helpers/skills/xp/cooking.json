@@ -6,14 +6,26 @@
     },
     "bestMethods": [
         {
-            "material": "raw fish",
+            "material": "raw rocktails",
             "name": "Rocktails",
             "xp": 225
         },
         {
-            "material": "raw fish",
+            "material": "raw cavefish",
             "name": "Cavefish",
             "xp": 214
+        }
+    ],
+    "moreMethods": [
+        {
+            "material": "raw sharks",
+            "name": "Sharks",
+            "xp": 210
+        },
+        {
+            "material": "raw monkfish",
+            "name": "Monkfish",
+            "xp": 150
         }
     ]
 }

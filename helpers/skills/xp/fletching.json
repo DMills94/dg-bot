@@ -6,14 +6,41 @@
     },
     "bestMethods": [
         {
-            "material": "arrow heads + headless arrows",
-            "name": "Broad Arrows (only tipping)",
+            "material": "broad arrow heads + headless arrows",
+            "name": "Broad arrows (only tipping)",
             "xp": 10
         },
         {
-            "material": "arrow heads + logs + feathers",
-            "name": "Broad Arrows (from scratch)",
+            "material": "broad arrow heads + logs + feathers",
+            "name": "Broad arrows (from scratch)",
             "xp": 12
+        }
+    ],
+    "moreMethods": [
+        {
+            "material": "dragon arrow heads + headless arrows",
+            "name": "Dragon arrows (only tipping)",
+            "xp": 16.3
+        },
+        {
+            "material": "rune arrow heads + headless arrows",
+            "name": "Rune arrows (only tipping)",
+            "xp": 13.8
+        },
+        {
+            "material": "oynx bolt tips + rune bolts",
+            "name": "Oynx bolts (only tipping)",
+            "xp": 9.4
+        },
+        {
+            "material": "dragonstone bolt tips + rune bolts",
+            "name": "Dragonstone bolts (only tipping)",
+            "xp": 8.2
+        },
+        {
+            "material": "diamond bolt tips + headless arrows",
+            "name": "Diamond bolts (only tipping)",
+            "xp": 7
         }
     ]
 }
