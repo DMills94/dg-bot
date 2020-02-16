@@ -64,23 +64,25 @@ module.exports = class KillNPC extends Command {
         }
       }
     }
+    
+    const descriptionText = `**__You killed ${toLocaleString(amount)} ${info.fullName}${amount > 1 ? "'s" : ''} and received__**`
 
     let embed = new RichEmbed()
       .setTitle('Boss kill simulator')
       .setColor('#fff417')
       .setURL('http://www.blissscape.com/forums/m/33734747/viewthread/32288082-drop-table-bosses')
       .setThumbnail(info.imageURL)
-      .setDescription(`**__You killed ${toLocaleString(amount)} ${info.fullName}'s and received__**`)
+      .setDescription(descriptionText)
       .setFooter(info.examine)
 
     isEmpty(loot) // If no drops acquired
       ? embed.setDescription(
-        stripIndents`**__You killed ${toLocaleString(amount)} ${info.fullName}'s and received:__**
+        stripIndents`${descriptionText}
         
         Nothing 😂👌💯`)
       : Object.entries(loot).length > 25 // If there's more than 25 drops (Max RichEmbed field count)
         ? embed.setDescription(
-          stripIndents`**__You killed ${toLocaleString(amount)} ${info.fullName}'s and received:__**
+          stripIndents`${descriptionText}
 
           ${Object.entries(loot).map(item => `**${toLocaleString(item[1])}x** ${item[0]}**`).join('\n')}`
         )
