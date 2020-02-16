@@ -4,7 +4,7 @@
         "imageUrl": "https://runescape.wiki/images/thumb/d/d9/Herblore_master_cape_detail.png/100px-Herblore_master_cape_detail.png?55272",
         "colour": "#005300"
     },
-    "methods": [
+    "bestMethods": [
         {
             "material": "torstols + extreme sets",
             "name": "Overloads (making only)",

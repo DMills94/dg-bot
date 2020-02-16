@@ -4,7 +4,7 @@
         "imageUrl": "https://runescape.wiki/images/thumb/a/a3/Summoning_master_cape_detail.png/100px-Summoning_master_cape_detail.png?d3893",
         "colour": "#ced5e9"
     },
-    "methods": [
+    "bestMethods": [
         {
             "material": "blue charms + water talismans",
             "name": "Geyser Titans",

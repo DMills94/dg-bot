@@ -4,7 +4,7 @@
         "imageUrl": "https://runescape.wiki/images/thumb/b/b5/Agility_master_cape_detail.png/100px-Agility_master_cape_detail.png?bff6b",
         "colour": "#222b89"
     },
-    "methods": [
+    "bestMethods": [
         {
             "material": "laps",
             "name": "Barb Advanced Course",

@@ -4,7 +4,7 @@
         "imageUrl": "https://runescape.wiki/images/thumb/2/20/Fishing_master_cape_detail.png/100px-Fishing_master_cape_detail.png?b6324",
         "colour": "#86bbe7"
     },
-    "methods": [
+    "bestMethods": [
         {
             "material": "living minerals",
             "name": "Rocktails",

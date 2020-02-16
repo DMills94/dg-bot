@@ -4,7 +4,7 @@
         "imageUrl": "https://runescape.wiki/images/thumb/4/4e/Fletching_master_cape_detail.png/100px-Fletching_master_cape_detail.png?5e844",
         "colour": "#004753"
     },
-    "methods": [
+    "bestMethods": [
         {
             "material": "arrow heads + headless arrows",
             "name": "Broad Arrows (only tipping)",

@@ -1,3 +1,5 @@
+const { toLocaleString } = require('../helpers')
+
 let prestigeFuncs = module.exports = {}
 
 const baseXp = 76
@@ -22,3 +24,14 @@ prestigeFuncs.xpRate = (prestige, hunter) => {
  * @returns {number}
  */
 prestigeFuncs.xpPerAction = (actionXp, xpRate) => +((actionXp * xpRate).toFixed(1))
+
+/**
+ * 
+ */
+prestigeFuncs.lampsForPrestige = (prestige, currentXp) => {
+    const xpRequired = 200000000 - currentXp
+    const xpPerLamp = prestigeFuncs.xpPerAction(8602, prestigeFuncs.xpRate(prestige, true))
+    const numLamps = xpRequired / xpPerLamp
+
+    return toLocaleString(Math.ceil(numLamps))
+}

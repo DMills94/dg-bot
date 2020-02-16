@@ -18,7 +18,7 @@
             }
         ]
     },
-    "methods": [
+    "bestMethods": [
         {
             "material": "logs",
             "name": "Magic Logs",

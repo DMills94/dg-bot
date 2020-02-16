@@ -4,7 +4,7 @@
         "imageUrl": "https://runescape.wiki/images/thumb/e/e2/Woodcutting_master_cape_detail.png/120px-Woodcutting_master_cape_detail.png?2316f",
         "colour": "#9d7d41"
     },
-    "methods": [
+    "bestMethods": [
         {
             "material": "cuts",
             "name": "Ivy",

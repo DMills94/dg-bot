@@ -4,11 +4,63 @@
         "imageUrl": "https://runescape.wiki/images/thumb/e/e0/Crafting_master_cape_detail.png/100px-Crafting_master_cape_detail.png?fddf4",
         "colour": "#94754e"
     },
-    "methods": [
+    "bestMethods": [
         {
             "material": "robust glass",
             "name": "Potion Flasks (glassblowing)",
             "xp": 100
+        }
+    ],
+    "moreMethods": [
+        {
+            "material": "d'hide leather",
+            "name": "Royale d'hide bodies",
+            "xp": 94
+        },
+        {
+            "material": "d'hide leather",
+            "name": "Black d'hide bodies",
+            "xp": 86
+        },
+        {
+            "material": "d'hide leather",
+            "name": "Red d'hide bodies",
+            "xp": 78
+        },
+        {
+            "material": "d'hide leather",
+            "name": "Blue d'hide bodies",
+            "xp": 70
+        },
+        {
+            "material": "d'hide leather",
+            "name": "Green d'hide bodies",
+            "xp": 62
+        },
+        {
+            "material": "uncut dragonstones",
+            "name": "Dragonstones (cutting)",
+            "xp": 100
+        },
+        {
+            "material": "uncut diamonds",
+            "name": "Diamonds (cutting)",
+            "xp": 85
+        },
+        {
+            "material": "uncut rubies",
+            "name": "Rubies (cutting)",
+            "xp": 70
+        },
+        {
+            "material": "uncut emeralds",
+            "name": "Emeralds (cutting)",
+            "xp": 55
+        },
+        {
+            "material": "uncut sapphires",
+            "name": "Sapphires (cutting)",
+            "xp": 40
         }
     ]
 }

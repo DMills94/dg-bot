@@ -4,7 +4,7 @@
         "imageUrl": "https://runescape.wiki/images/thumb/4/49/Farming_master_cape_detail.png/100px-Farming_master_cape_detail.png?7bb90",
         "colour": "#1c5e24"
     },
-    "methods": [
+    "bestMethods": [
         {
             "material": "days",
             "name": "Magic + Palms (1 run per day)",

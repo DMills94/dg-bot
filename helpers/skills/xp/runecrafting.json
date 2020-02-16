@@ -4,7 +4,7 @@
         "imageUrl": "https://runescape.wiki/images/thumb/a/a3/Runecrafting_master_cape_detail.png/74px-Runecrafting_master_cape_detail.png?47edf",
         "colour": "#ffe534"
     },
-    "methods": [
+    "bestMethods": [
         {
             "material": "essence",
             "name": "ZMI (estimated xp rates)",
