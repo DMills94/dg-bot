@@ -9,7 +9,13 @@ const client = new commando.Client({
 })
 
 client
-    .on('ready', () => console.log(`Client ready logged in as ${client.user.username}#${client.user.discriminator} (${client.user.id})`))
+		.on('ready', () => console.log(`Client ready logged in as ${client.user.username}#${client.user.discriminator} (${client.user.id})`))
+		.on('message', msg => {
+			// Random potato react chance
+			const chance = 500
+
+			if (Math.random() < 1 / chance) msg.react('🥔')
+		})
     .on('commandError', (cmd, err) => {
 		if(err instanceof commando.FriendlyError) return
 		console.error(`Error in command ${cmd.groupID}:${cmd.memberName}`, err)
