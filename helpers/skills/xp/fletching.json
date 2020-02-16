@@ -8,12 +8,12 @@
         {
             "material": "arrow heads + headless arrows",
             "name": "Broad Arrows (only tipping)",
-            "xp": 15
+            "xp": 10
         },
         {
             "material": "arrow heads + logs + feathers",
             "name": "Broad Arrows (from scratch)",
-            "xp": 17
+            "xp": 12
         }
     ]
 }
