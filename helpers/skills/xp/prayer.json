@@ -4,7 +4,7 @@
         "imageUrl": "https://runescape.wiki/images/thumb/a/a7/Prayer_master_cape_detail.png/100px-Prayer_master_cape_detail.png?c9f02",
         "colour": "#d3d110"
     },
-    "methods": [
+    "bestMethods": [
         {
             "material": "bones",
             "name": "Frost Dragon Bones (Gilded Altar)",

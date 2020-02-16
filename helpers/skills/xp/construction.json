@@ -4,7 +4,7 @@
         "imageUrl": "https://vignette.wikia.nocookie.net/runescape2/images/8/8d/Construction_master_cape_detail.png/revision/latest?cb=20140815194916",
         "colour": "#a49a69"
     },
-    "methods": [
+    "bestMethods": [
         {
             "material": "planks",
             "name": "Mahogany Planks",

@@ -4,7 +4,7 @@
         "imageUrl": "https://runescape.wiki/images/thumb/c/cc/Thieving_master_cape_detail.png/100px-Thieving_master_cape_detail.png?eb299",
         "colour": "#7e416f"
     },
-    "methods": [
+    "bestMethods": [
         {
             "material": "steals",
             "name": "Gem Stall",

@@ -10,7 +10,7 @@
             }
         ]
     },
-    "methods": [
+    "bestMethods": [
         {
             "material": "sandstone",
             "name": "Red Sandstone",
@@ -25,6 +25,11 @@
             "material": "gems",
             "name": "Gem Rocks (w/ Karamja Gloves)",
             "xp": 130
+        },
+        {
+            "material": "ore",
+            "name": "Iron ore",
+            "xp": 35
         }
     ]
 }

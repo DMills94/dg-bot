@@ -4,7 +4,7 @@
         "imageUrl": "https://runescape.wiki/images/thumb/4/44/Hunter_master_cape_detail.png/100px-Hunter_master_cape_detail.png?5e844",
         "colour": "#944e01"
     },
-    "methods": [
+    "bestMethods": [
         {
             "material": "catches",
             "name": "Grenwalls",

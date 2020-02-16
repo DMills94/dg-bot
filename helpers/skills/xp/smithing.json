@@ -4,11 +4,28 @@
         "imageUrl": "https://runescape.wiki/images/thumb/d/d3/Smithing_master_cape_detail.png/100px-Smithing_master_cape_detail.png?9f5ec",
         "colour": "#fff417"
     },
-    "methods": [
+    "bestMethods": [
         {
             "material": "ores",
             "name": "Gold Ores (with gauntlets)",
             "xp": 56.2
+        }
+    ],
+    "moreMethods": [
+        {
+            "material": "rune bars",
+            "name": "Rune bar smithing",
+            "xp": 75
+        },
+        {
+            "material": "addy bars",
+            "name": "Adamant bar smithing",
+            "xp": 62.5
+        },
+        {
+            "material": "mith bars",
+            "name": "Mithril bar smithing",
+            "xp": 50
         }
     ]
 }

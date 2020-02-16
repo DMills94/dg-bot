@@ -38,6 +38,7 @@ module.exports = class NextPrestige extends Command {
                     key: 'prestige',
                     label: 'current prestige',
                     prompt: 'What is your current prestige?',
+                    error: 'You entered an invalid value for your prestige, what is it? I do not calculate more than P8 right now!',
                     type: 'integer',
                     min: 0,
                     max: 8
@@ -47,6 +48,14 @@ module.exports = class NextPrestige extends Command {
                     label: 'current xp',
                     prompt: 'What is your current xp in your prestige?',
                     type: 'string'
+                },
+                {
+                    default: false,
+                    error: 'Would you like to see all, or just the suggested methods? Type `true` or `false`',
+                    key: 'allMethods',
+                    label: 'show all methods',
+                    prompt: 'Would you like to see all the skilling methods?',
+                    type: 'boolean'
                 }
             ],
             argsType: 'multiple',
@@ -55,13 +64,18 @@ module.exports = class NextPrestige extends Command {
     }
 
     async run(msg, args) {
-        let { skill = skill.toLowerCase(), prestige, xp } = args
+        let { skill = skill.toLowerCase(), prestige, xp, allMethods } = args
         if (['m', 'k'].some(char => xp.toLowerCase().includes(char))) {
             if (xp.includes('m')) xp = xp.replace('m', '000000')
             if (xp.includes('k')) xp = xp.replace('k', '000')
         }
 
-        const { info, methods } = SKILLS[skill]
+        const { info, bestMethods, moreMethods } = SKILLS[skill]
+        const methods = allMethods
+            ? moreMethods
+                ? [ ...bestMethods, ...moreMethods ]
+                : [ ...bestMethods ]
+            : [ ...bestMethods ]
         const boosts = 'skillBoosts' in info
         const xpRate = prestigeFuncs.xpRate(prestige, skill === 'hunter')
         const xpTillPrestige = 200000000 - +xp
@@ -91,6 +105,12 @@ module.exports = class NextPrestige extends Command {
                 `${toLocaleString(Math.ceil(xpTillPrestige / xpPerAction))} ${method.material} ${boosts ? `- ${info.skillBoosts.map((boost, i) => `${NUM_EMOJIS[i]} ${toLocaleString(Math.ceil(xpTillPrestige / (xpPerAction * boost.boost)))} ${method.material}`).join(' - ')}` : ''}`
             )
         })
+
+        // Lamps
+        embed.addField(
+            'XP lamps',
+            `${prestigeFuncs.lampsForPrestige(prestige, xp)} lamps`
+        )
 
         return msg.channel.send({ embed })
     }
