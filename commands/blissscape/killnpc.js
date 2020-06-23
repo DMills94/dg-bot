@@ -10,9 +10,9 @@ const npcList = Object.values(NPCS).map(npc => npc.info.name)
 module.exports = class KillNPC extends Command {
   constructor(client) {
     super(client, {
-      name: 'killnpc',
+      name: 'kill',
       aliases: ['kb', 'kill'],
-      memberName: 'killnpc',
+      memberName: 'kill',
       group: 'blissscape',
       description: 'Simulate killing an npc `x` times',
       args: [

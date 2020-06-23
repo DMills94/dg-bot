@@ -16,7 +16,7 @@ const skillList = Object.values(SKILLS).map(skill => skill.info.name)
 module.exports = class NextPrestige extends Command {
     constructor(client) {
         super(client, {
-            name: 'nextprestige',
+            name: 'prestige',
             aliases: ['np', 'prestige'],
             group: 'blissscape',
             description: 'Calculates how many actions you need for different skills to reach the next prestige',
