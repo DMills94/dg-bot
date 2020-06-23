@@ -15,6 +15,6 @@
     "discord.js": "^11.5.1",
     "discord.js-commando": "^0.10.0",
     "lodash": "^4.17.15",
-    "sqlite": "^3.0.3"
+    "sqlite": "^4.0.11"
   }
 }
