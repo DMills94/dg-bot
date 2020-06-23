@@ -10,7 +10,7 @@ module.exports = class Next99 extends Command {
             name: '99',
             aliases: ['n99', '99'],
             group: 'blissscape',
-            description: 'Calculates how many actions you need for different skills to reach level 99 in the next prestige',
+            description: 'This feature is WIP and will not work, please just use the `prestige` command',
             memberName: '99',
             args: [
                 {
@@ -44,6 +44,6 @@ module.exports = class Next99 extends Command {
     }
 
     async run(msg, args) {
-        msg.channel.send('yes boss')
+        msg.channel.send('Feature is WIP')
     }
 }
