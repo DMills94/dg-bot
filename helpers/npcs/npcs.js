@@ -10,12 +10,13 @@ const kree = require('./drop-rates/kreearra.json')
 const kril = require('./drop-rates/kril.json')
 const mole = require('./drop-rates/mole.json')
 const nex = require('./drop-rates/nex.json')
-const nox = require('./drop-rates/noxdrag.json')
+const noxdemon = require('./drop-rates/noxdemon.json')
+const noxdragon = require('./drop-rates/noxdrag.json')
+const noxwyrm = require('./drop-rates/noxwyrm.json')
 const prime = require('./drop-rates/prime.json')
 const qbd = require('./drop-rates/qbd.json')
 const rex = require('./drop-rates/rex.json')
 const supreme = require('./drop-rates/supreme.json')
-const ww = require('./drop-rates/wildywyrm.json')
 const sara = require('./drop-rates/zilyana.json')
 
 module.exports = {
@@ -31,11 +32,12 @@ module.exports = {
   kril,
   mole,
   nex,
-  nox,
+  noxdemon,
+  noxdragon,
+  noxwyrm,
   prime,
   qbd,
   rex,
   sara,
   supreme,
-  ww
 }

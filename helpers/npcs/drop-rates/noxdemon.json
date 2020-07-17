@@ -1,0 +1,22 @@
+{
+  "info": {
+    "fullName": "Noxious Demon",
+    "name": "NoxDemon",
+    "imageURL": "https://runescape.wiki/w/Kal%27Ger_the_Warmonger#/media/File:Kal%27Ger_the_Warmonger_4.png",
+    "examine": "It's made of pure fire."
+  },
+  "dropTable": [
+    {
+      "name": "Noxious Demon egg",
+      "dropRate": 300
+    },
+    {
+      "name": "Noxious webbing",
+      "dropRate": 200
+    },
+    {
+      "name": "Noxious spider caracss",
+      "dropRate": 200
+    }
+  ]
+}
